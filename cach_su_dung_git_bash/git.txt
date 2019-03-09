@@ -1,0 +1,5 @@
++B1: git init
+B2: git remote add origin https://.... (link tên git dã t?o)
+B3: git add .
+B4: git commit -m "n?i dung commit"
+B5: git push origin master

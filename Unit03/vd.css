@@ -1,0 +1,81 @@
+h1{
+	/*Nhóm Block có thuộc tính width, height, background*/
+	background-color:red;
+	/*transparent : màu trong suốt; */
+	width: 18%;
+	height: 40px;
+	/*background-image: url('../Unit02/anhunit02/img2.gif');*/
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	/*Fixed Cuộn lên cuộn xuống vẫn nhìn thấy ảnh*/
+	/*Scroll cuộn xuống thì k thấy ảnh*/
+	background-position: 20px 70px;
+	/*cách lề trái 20px, cách lề trên 70px*/
+	/* (Gộp các thuộc tính) background: red url('../Unit02/anhunit02/img2.gif') no-repeat 20px 70px scroll;*/
+	font-family: arial;
+	font-size: 30px; /*30pt*/
+	font-style: normal;
+	font-weight: 900;
+	color: blue;
+	text-indent: 50px; /* cách ra 50px*/
+	text-align: center;
+	text-decoration: none; 
+	display: inline-block;
+}</span>
+a{
+	text-decoration: none; 
+}
+#child{
+	display: block;
+}
+/*Di chuột tới đâu sẽ thay đổi tới đó*/
+h1:hover{
+	color: yellow;
+	height: 100px;
+	width: 30%
+}
+div{
+	height: 50px;
+	width: 20%;
+	background-color: green;
+	float: right;
+}
+div{
+	border-radius: 10px;
+}
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+	float: left;
+	text-align: center;
+	overflow: auto;
+	/*hidden
+	scroll*/
+}
+#left{
+	width: 20%;
+	height: 200px;
+	background-color: gray;
+	float: left;
+
+}
+#main{
+	width: 60%;
+	height: 200px;
+	background-color: white;
+	float: left;
+}
+#right{
+	width: 20%;
+	height: 200px;
+	background-color: yellow;
+	float: right;
+}
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: green;
+	clear: left;
+	text-align: center;
+}

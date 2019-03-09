@@ -1,0 +1,21 @@
+div{
+	width: 70%;
+	height: 250px;
+	background-color: white;
+}
+span:hover{
+	color: red;
+	text-decoration: underline;
+
+}
+p:hover{
+	color: blue;
+	text-decoration: none;
+	padding-left: 20px;
+}
+img{
+	display: inline-block;
+}
+p{
+	display: inline-block;
+}

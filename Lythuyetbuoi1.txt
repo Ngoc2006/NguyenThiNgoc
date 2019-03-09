@@ -1,0 +1,8 @@
+1. background
++ ../ di ra khoi thu muc
++ thumuc/tenanh.duoi
+- noi dung nam trong cap the p
+- &nbsp; :dung de cach tuy thich
+- &copy; : them C congf;
+- ctrl + ? : comment
+- Ctrl + shift + p + i:    format laij code

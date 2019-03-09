@@ -1,0 +1,43 @@
+@font-face{
+	font-family: 'font-o-ly';
+	src:url('../fonts/Buffet Script.otf');
+}
+
+.rec{
+	width: 400px;
+	height: 200px;
+	background-color: gray;
+	border: 1px dotted red;
+	/*font-family: 'Playfair Display', serif;*/
+}
+#box-model{          
+	/*border-width: 1px;
+	border-style: solid;
+	border-color: red;*/
+	/*border-top: 1px dotted red;
+	border-bottom: 1px dotted red;*/
+	/*margin-top: 20px;
+	padding-left: 30px;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	/*font-family: 'font-o-ly';*/
+	font-size: 35px;
+	position: relative;
+}
+.child{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+#child1{
+	top: 30px;
+	left: 40px;
+	background-color: red;
+}
+#child2{
+	top: 40px;
+	left: 50px;
+	z-index: 1;
+	background-color: green;
+}

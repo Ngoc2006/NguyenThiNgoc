@@ -1,0 +1,32 @@
+div.image {
+	margin: 5px;
+	width: 140px;
+	border: 1px solid #ccc;
+	text-align: center;
+	float: left;
+} 
+div.image:hover {
+	border: 1px solid red;
+}
+div.image img {
+	width:40%;
+	height: 90px;
+
+}
+div.desc {
+	padding: 10px;
+	text-align: center;
+}
+div.name{
+	color: #EE8319;
+}
+div.price{
+	color: red;
+	font-weight: bold;
+}
+div.name:hover {
+	color: green;
+}
+div.price:hover {
+	color: blue;
+}

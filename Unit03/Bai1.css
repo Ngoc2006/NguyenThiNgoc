@@ -1,0 +1,139 @@
+
+body{
+   background-image: url('anh/tuyet.jpg');
+   background-repeat: repeat;
+}
+#smile{
+	background-color:white;
+	width: 795px;
+	height:auto;
+	margin: 0 20%;
+}
+#header{
+
+}
+#navbar{
+	background-image: url('anh/nav.gif');
+	background-repeat: repeat-x;
+}
+#navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#navbar li{
+     display: inline-block;
+}
+#navbar li a{
+	text-decoration: none;
+	display: inline-block;
+	padding:10px;
+	color: #e67e22;
+}
+
+
+#navbar li a:hover{
+	color: #ecf0f1;
+}
+hr{
+	border-color: black;
+	margin-bottom: 20px;
+}
+#bodypart{
+	 background-color:white;
+}
+.main{
+	float: left;
+}
+.main a{
+	text-decoration: none;
+}
+.main ul{
+	list-style-type: none;
+	margin-left: -40px;
+}
+#left-bodypart{
+	width: 25%;
+}
+.lan{
+	margin-bottom: 50px;
+	margin-right: 10px;
+}
+.lan1{
+	border:solid 1px #95afc0;
+}
+.lan a img{
+	margin-top: 20px;
+} 
+.abc li {
+   padding-top:10px;
+}
+.image{
+	background-image: url('anh/menu_bar.gif');
+	background-repeat: no-repeat;
+	color: white;
+	padding-left:15px;
+    padding-top: 8px;
+}
+#middle-bodypart{
+    width: 50%;
+}
+.middle{
+	background-color: #ffbe76;
+	line-height: 20px;
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+.middle i{
+	color: white;
+}
+.middle-color{
+	color:  #ffbe76;
+}
+.middle1{
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+.middle1-right h1{
+     text-align: right;
+}
+.middle-text{
+	text-align: right;
+}
+.image-left{
+	background-image: url('anh/main_bar_left.gif');
+	color: white;
+	background-repeat: no-repeat;
+	padding-left:20px;
+	padding-top:8px;
+}
+.image-left2 img{
+	height: 190px;
+}
+
+#right-bodypart{
+   width: 25%;
+}
+.image-right1{
+	margin-bottom:50px;
+}
+.image-right{
+	background-image: url('anh/main_bar_right.gif');
+	padding: 8px;
+	background-repeat: no-repeat;
+	color: white;
+}
+#footer{
+	height: 50px;
+	clear: left;
+	background-color: #535c68;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+*{
+	font-family: Arial;
+	font-size: 12px;
+}
