@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: lightgreen;
+}
+/*desktop*/
+@media all and (min-width: 1200px){
+	iframe{
+		display: block;
+	}
+}
+/*desktop*/
+@media all and (max-width: 992px){
+	iframe{
+		display: block;
+	}
+}
+/*máy tính bảng - tablet*/
+@media all and (max-width: 768px){
+	iframe{
+		display: none;
+	}
+}
+/*smartphone*/
+@media all and (max-width: 576px){
+	iframe{
+		display: none;
+	}
+}
