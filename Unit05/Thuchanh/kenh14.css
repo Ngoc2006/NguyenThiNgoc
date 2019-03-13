@@ -654,7 +654,18 @@ i{
 	text-decoration: underline;
     color: black !important;
 }
-
+/*.fa-eye{
+    border-radius: 50%;
+    background-color: white;
+     width: 20px;
+    height: 20px;
+}*/
+.fa-facebook{
+    border-radius: 50%;
+    background-color: white;
+     width: 20px;
+    height: 20px;
+}
 
 
 

@@ -1,3 +1,6 @@
+body{
+	width: 100%;
+}
 *{
 	margin:0;
 	padding:0;
@@ -95,6 +98,7 @@
     font-family: 'Lobster', cursive;
 }
 #tinlienquan{
+    padding: 0 10%;
 	margin-top: 50px;
 	height: auto;
 }
@@ -152,7 +156,6 @@
     padding-top: 20px;
 }
 #footer-abc{
-	width: 100%;
 	height: auto;
 	background-color: lightblue;
     padding-left: 50px;
@@ -213,6 +216,9 @@
 @media (max-width: 576px) {
 	.p3{
 		width: 100%;
+	}
+	#tinlienquan{
+		padding-left: 0% !important;
 	}
 	.left{
 		width: 100% !important;
