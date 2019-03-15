@@ -1,0 +1,53 @@
+
+#header{
+    width: 100%;
+    position: relative;
+}
+.nav_header{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	position: absolute;
+	background-color: white;
+}
+.nav_header .left{
+	float: left;
+
+}
+.nav_header .right{
+	float: right;
+}
+.nav_header .right .red{
+	color: red;
+}
+.nav_header .left .red{
+	color: red;
+}
+.right_nav {
+	padding: 0 63px;
+}
+.right_nav1{
+	font-size: 15px;
+	padding:0 50px;
+}
+.dau-ba-cham{
+    width: 15%;
+    height: 25px;
+    margin-left: 48%;
+    margin-top: 5px;
+}
+.dau-ba-cham span{
+    background-color: #6d6565;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+
+}
+.dau-ba-cham span:hover{
+    background-color: #ff5200;
+}
+
+

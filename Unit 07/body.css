@@ -1,0 +1,150 @@
+article{
+	margin-top: 30px;
+}
+article .section-1{
+	text-align: center;
+	padding: 10px;
+}
+article .section-1-1{
+	font-size: 17px;
+}
+article .section-1-2{
+	font-size: 25px;
+	padding-top: 13px;
+}
+article .icon-box div{
+	width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.icon-box1{
+	width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+    background-color: #ff5200;
+}
+.icon{
+    color: white;
+    font-size: 25px !important;
+}
+
+article a{
+    text-decoration: none;
+    color: black;
+}
+
+/*section2*/
+.section-2{
+	text-align: center;
+}
+.section-2-1a{
+	font-size: 30px;
+}
+.section-2-1b{
+	font-size: 15px;
+    padding-top: 15px;
+}
+.section-2-1{
+	padding-bottom: 20px;
+}
+.section-2 img {
+	max-width: 85%;
+}
+
+/*section3*/
+article.section-3{
+	width: 85%;
+	margin: 10px;
+	float: left;
+}
+article .section-3-1{
+	width: 29%;
+	display: inline-block;
+}
+article .section-3-1 .left{
+	float: left;
+}
+.section-3 .section-3-1 .right{
+	width: 75%;
+	text-align: left;
+	float: right;
+}
+.section-2-1a{
+	padding-top: 50px !important;
+}
+.center{
+    margin: 0 5%;
+}
+.section_title{
+	padding-top: 10px;
+}
+.section-3-1>p{
+	float:left;
+	width:50px;
+	height:50px;
+	color:red;
+	border-radius: 50%;
+	background-color: orange;
+	text-align: center;
+	line-height: 50px
+}
+.section-3-1>p>i{
+	color:red;
+}
+
+.section-3-1>div{
+	float:left;
+	width:65%;
+	padding-left: 10px;
+}
+
+
+@media screen and (max-width: 845px) {
+	.section-3-1{
+		min-width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+
+}
+
+/*section4*/
+.section-4{
+    height: 220px;
+    background-color: #e64124;
+    clear: both;
+    color: white;
+    text-align: center;
+}
+.section-4 span{
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px 7px;
+	margin-right: 1%;
+
+}
+
+/*section5*/
+.section-5{
+	width: 85%;
+	padding: 60px 0;
+	margin-left: 90px;
+}
+.section-5> p{
+
+}
+.section-5 .section-5-1 {
+	width: 25%;
+	padding: 30px 0;
+	float: left;
+}
+.section-5 .section-5-1> a img{
+	width: 160px;
+    padding-bottom: 15px;
+	border-radius: 10px;
+}
+
+

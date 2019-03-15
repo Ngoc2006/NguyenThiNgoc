@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dekar';
+    font-size: 16px;
+}
+.text-indent{
+    text-indent: 5px;
+}
+@font-face{
+    src: url('font/Dekar-Regular.ttf');
+    font-family: 'Dekar';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.in-hoa{
+    text-transform: uppercase;
+}
+nav{
+    height: 80px;
+    line-height: 80px;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    padding: 0 5%;
+}
+nav span:hover{
+    color: rgb(255, 136, 0);
+}
+nav{
+    font-weight: bold;
+}
+#name{
+    width: 10%;
+    text-align: center;
+}
+#menu{
+    width: 50%;
+    margin-left: 40%;
+}
+#bg img{
+    background-size: contain;
+    width: 100%;
+}
+.size-25{
+    font-size: 25px;
+}
+.size-22{
+    font-size: 22px;
+}
+#profile{
+    text-align: center;
+    clear: both;
+}
+#profile p{
+    margin: 1% 0;
+}
+#ba-cham{
+    width: 15%;
+    height: 25px;
+    margin-left: 48%;
+    margin-top: 5px;
+}
+#ba-cham span{
+    background-color: rgb(88, 88, 88);
+    width: 8px;
+    height: 8px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 10%;
+}
+#ba-cham span:hover{
+    background-color: rgb(255, 136, 0);
+}
+html {
+    scroll-behavior: smooth;
+}
+article div{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-bottom: 5%;
+}
+article .box-icon{
+    margin: 10% 0 !important;
+}
+.box-icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: tomato;
+    line-height: 52px;
+    margin: 3% 0;
+}
+.box-icon:hover,#ba-cham span:hover{
+    -moz-box-shadow: 2px 3px 14px tomato;
+    -webkit-box-shadow: 2px 3px 14px tomato;
+    box-shadow: 2px 3px 14px tomato;
+}
+aside span:hover{
+    -moz-box-shadow: 2px 0px 1px rgb(253, 253, 253);
+    -webkit-box-shadow: 2px 0px 1px rgb(253, 253, 253);
+    box-shadow: 2px 0px 1px rgb(253, 253, 253);
+}
+.icon{
+    color: white;
+    font-size: 25px !important;
+}
+section #s-img{
+    width: 85%;
+    margin: 2% 0 25% 15%;
+}
+section #s-img img{
+    width: 40%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+.distance{
+    padding-top: 10px;
+}
+#content{
+    width: 70%;
+    padding-top: 50px;
+}
+#content .content-small{
+    width: 30%;
+}
+#content .content-small > a p{
+    margin: 0;
+}
+#content .content-small .right{
+    width: 78%;
+    text-align: left;
+    padding-bottom: 70px;
+}
+.center{
+    margin: 0 5%;
+}
+aside{
+    height: 190px;
+    background-color: tomato;
+    clear: both;
+    color: white;
+}
+aside .size-22{
+    padding-top: 40px;
+}
+aside span{
+    background: white;
+    padding: 2px 7px;
+    border-radius: 10px;
+    margin-right: 1%;
+}
+#info .info-small a img{
+    width: 200px;
+    border-radius: 10px;
+}
+#info .info-small{
+    float: left;
+    width: 25%;
+    padding: 30px 0;
+}
+#info{
+    padding-top: 50px;
+    width: 70%;
+}
+#info > p{
+    padding-top: 25px;
+}
+#info .info-small a img:hover{
+    -moz-box-shadow: 2px 3px 14px rgb(88, 88, 88);
+    -webkit-box-shadow: 2px 3px 14px rgb(88, 88, 88);
+    box-shadow: 2px 3px 14px rgb(88, 88, 88);
+}
+#info .info-small .size-22{
+    font-weight: bold;
+    padding: 15px 10px;
+}
+
+footer{
+    background-color: rgb(94, 94, 94);
+    color: white;
+    clear: both;
+    height: 362px;
+}
+.footer #ft-distance{
+    padding-bottom: 15px;
+}
+.footer{
+    width: 22%;
+    float: left;
+    text-align: left;
+    margin-left: 10%;
+    padding: 30px 0 40px 0;
+}
+footer .size-25{
+    padding-bottom: 30px;
+}
+footer a{
+    color: white !important;
+}
+.footer span{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+footer .box-icon{
+    float: left;
+    margin-right: 7px;
+}
+.ft-thanh-ngang{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 22px 0 10px 0;
+}
+#end{
+    height: 80px;
+    background-color: black;
+    color: white;
+    padding: 20px 0 0 10%;
+}
+#end a{
+    color: white;
+}
+#end p{
+    clear: both;
+    padding-top: 20px;
+}
+#end ul li{
+    float: left;
+    list-style: none;
+    padding-right: 30px;
+}
+/* desktop big */
+@media all and (min-width: 1200px){
+
+}
+@media (min-width: 993px) and (max-width: 1024px){
+    #info .info-small a img {
+        width: 90%;
+    }
+}
+/* desktop */
+@media (min-width: 769px) and (max-width: 992px){
+    nav ul li {
+        padding: 0 4%;
+    }
+    #menu {
+        width: 55%;
+        margin-left: 35%;
+    }
+    #info .info-small a img {
+        width: 90%;
+    }
+    #content .content-small .right {
+        width: 70%;
+    }
+    footer {
+        height: 430px;
+    }
+}
+/* tablet */
+@media all and (max-width: 768px){
+    #menu{
+        width: 70%;
+        margin-left: 10%;
+    }
+    #name{
+        width: 20%;
+    }
+    nav ul li {
+        padding: 0 4%;
+    }
+    section #s-img img{
+        width: 85%;
+        margin-right: 0;
+        padding-bottom: 10px;
+    }
+    #content .content-small {
+        width: 100%;
+    }
+    .center {
+        margin: 0;
+    }
+    #info .info-small {
+        width: 100%;
+        padding: 0;
+    }
+    .footer {
+        width: 80%;
+        text-align: left;
+        margin-left: 11%;
+        padding: 30px 0 40px 0;
+    }
+    footer{
+        height: 860px;
+    }
+    #end {
+        padding: 10px 15px;
+    }
+    #end ul li {
+        padding-right: 3%;
+    }
+    .distance-bot{
+        padding-bottom: 10px;
+    }
+    article div {
+        width: 100%;
+    }
+    #content .content-small {
+        padding: 30px 0 30px 0;
+    }
+    #content .content-small .right{
+        padding: 0;
+    }
+}
+/* smartphone */
+@media all and (max-width: 576px){
+    #menu{
+        display: none;
+    }
+    article div {
+        width: 100%;
+    }
+    section #s-img img{
+        width: 85%;
+        margin-right: 0;
+        padding-bottom: 10px;
+    }
+    #content .content-small {
+        width: 100%;
+    }
+    #info .info-small {
+        width: 100%;
+        padding: 0;
+    }
+    .footer {
+        width: 80%;
+        text-align: left;
+        margin-left: 11%;
+        padding: 30px 0 40px 0;
+    }
+    footer{
+        height: 825px;
+    }
+    #end {
+        padding: 10px 15px;
+    }
+    #end ul li {
+        padding-right: 3%;
+    }
+    .distance-bot{
+        padding-bottom: 10px;
+    }
+    #content .content-small {
+        padding: 30px 0 30px 0;
+    }
+    #content .content-small .right{
+        padding: 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 400px)
+{
+    footer{
+        height: 950px;
+    }
+}
