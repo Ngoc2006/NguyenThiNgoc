@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.article{
+	background: rgba(0,0,0,0.1);
+	width: 90%;
+	height: auto;
+}
+
+/*section-1*/
+.text-size-2{
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+	color: #e3664a;
+}
+article .section-1-1{
+	display: inline-block;
+    margin: 0 20px;
+    width: 26%;
+    height: 400px;
+    border: 0.5px solid white;
+    background-color: white;
+}
+article .section-1 img{
+    width: 334px;
+    height: 235px;
+}
+article .section-1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin: 30px;
+	padding-top: 20px;
+
+}
+article .section-1-1 p{
+	padding-top: 15px;
+}
+
+/*section-2*/
+
+article .section-2 {
+	background-image: url("images/bg.png");
+	background-repeat: no-repeat;	
+	background-size: cover;
+	width: 80%;
+	height: 260px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+article .text-size-7{
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+}
+article .section-2 .nut-ban{
+	height: 25px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	border: 0.5px solid black;
+}
+
+/*section-3*/
+article .section-3 {
+	width: 80%;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+
+}
+article .section-3 .section-3-1 {
+	width: 35%;
+	height: 600px;
+	/*background-color: blue;*/
+
+}
+article .section-3 .section-3-1-left{
+	float: left;
+	font-size: 22px;
+	color: #955757;
+}
+article .section-3 .section-3-1-right{
+	padding: 10px 180px;
+    width: 75px;
+    height: 23px;
+    color: black;
+}
+article .section-3 .section-3-2 {
+	width: 65%;
+	height: 600px;
+	
+	display: flex;
+	flex-direction: row;
+	/*background-color: green;*/
+}
+article .section-3 .section-3-1 .section-3-1a{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	border-bottom: 0.5px solid #ccc;
+}
+/*article .section-3 .section-3-1 .section-3-1a .fa-heart-o {
+	border: 0.5px solid orange;
+}*/
+article .mau-chu{
+	color: grey;
+}
+article .section-3 .section-3-1 .section-3-1a1{
+	text-align: left;
+}
+article .section-3 .section-3-2 .section-3-2-left{
+	width: 70%;
+	background-color: blue;
+	position: relative;
+}
+article .section-3 .section-3-2 .section-3-2-right{
+	width: 30%;
+	height: 300px;
+	z-index: 50;
+	position: absolute;
+	background-color: green;
+}
+
