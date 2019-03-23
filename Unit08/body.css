@@ -290,7 +290,7 @@ article .section-5 .section-5-2 .popular{
 /*section-6*/
 
 article .section-6{
-	width: 100%;
+	width: 80%;
     margin-top: 40px;
 	display: flex;
 	flex-direction: row;
@@ -317,7 +317,7 @@ article .section-6 .section-6-2 .left .left1{
 article .right{
 	float: right;
 }
-article .mau{
+ .mau{
 	color: #e6a838;
 }
 article .abc{
@@ -364,7 +364,7 @@ article .section-8 .chia-4-flex{
 article .section-8 .chia-4-flex .chia-4 p{
 	padding: 10px;
 }
-article .section-8 .chia-4-flex .chia-4 .icon{
+ .icon{
 	border-radius: 50%;
 	border: 0.5px solid orange;
 	width: 11%;
