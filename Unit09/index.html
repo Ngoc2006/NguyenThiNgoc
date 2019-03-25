@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css" media="screen">
+	.color{
+		padding: 20px;
+		border: 1px solid black;
+		margin: 20px;
+	}
+	div{
+		margin-top: 20px;
+	}
+</style>
+<script type="text/javascript">
+		function load(){
+			var colors = document.getElementsByClassName("color");
+			for (var i = 0; i < colors.length; i++) {
+				colors[i].style.backgroundColor = colors[i].id;
+				colors[i].addEventListener("mouseout",function(){
+					reset();
+				});
+				colors[i].addEventListener("mouseover", function(){
+					change(this);
+				});
+			}
+			var opt = document.getElementById("opt");
+			opt.addEventListener("change",function(){
+				changeColor(this);
+			});
+		}
+		function change(color){
+			var div = document.getElementsByTagName("div");
+			// div[0].style.backgroundColor = color.id;   : đổi màu 1 thẻ div
+			for (var i = 0; i < div.length; i++) {
+				div[i].style.backgroundColor = color.id;
+			}
+		}
+		function reset(){
+			var div = document.getElementsByTagName("div");
+			// div[0].style.backgroundColor = "white";
+			for (var i = 0; i < div.length; i++) {
+				div[i].style.backgroundColor = "white";
+			}
+		}
+		function changeBg(text){
+			text.style.backgroundColor = "yellow";
+		}
+		function resetBg(text){
+			text.style.backgroundColor = "White";
+		}
+		function changeColor(opt){
+			var div = document.getElementsByTagName("div");
+			div[0].style.backgroundColor = opt.value;
+		}
+
+
+
+	// function change(){
+	// 	var box = document.getElementById("box");
+	// 	box.checked = true;
+	// 	box.value = 123;
+	// 	box.className = "Test";
+
+	// 	var text = document.getElementById("text");
+	// 	text.style.display = "none";
+	// 	text.style.width = "300px";
+	// 	text.style.height = "300px";
+	// 	text.style.color = "green";
+	// 	text.style.background = " #ccc";
+	// 	text.style.borderColor = "orange";
+	// 	text.style.borderWidth = "1px";
+	// 	text.style.borderStyle = "solid";
+
+
+// TagName, className luôn luôn trả về mảng, số nhiều
+
+
+			// var text = document.getElementsByTagName("div");
+			// for (var i = 0; i < text.length; i++) {
+			// 	text[i].style.display = "none";
+			// }var text = document.getElementsByClassName("text");
+			
+
+			
+	</script>
+
+
+
+</head>
+<body onload="load()">
+	<select id="opt" name="" onchange="changeColor(this)">
+		<option value="">~~Select~~</option>
+		<option value="red">Red</option>
+		<option value="blue">Blue</option>
+		<option value="green">Green</option>
+		<option value="yellow">Yellow</option>
+	</select>
+
+	<input type="text" name="" value="" placeholder="Search..." onfocus="changeBg(this)" onblur="resetBg(this)">
+	<span id="red" class="color"></span>
+	<span id="green" class="color"></span>
+	<span id="blue" class="color"></span>
+	<span id="yellow" class="color"></span>
+	<span id="grey" class="color"></span>
+	<span id="purple" class="color"></span>
+	<span id="lightgreen" class="color"></span>
+	<span id="orange" class="color"></span>
+
+
+	<input type="button" name="" onclick="change()" value="Click">
+	<input id="box" type="checkbox" name="" value="Test">Test
+	<div id="text" class="text">
+		The div 1
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, doloribus ipsam explicabo distinctio voluptas fugiat facilis ipsa facere
+	</div>
+	<div class="text">
+		The div 2
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores esse, pariatur. Necessitatibus labore facilis, fugit obcaecati rerum optio commodi, sint ducimus sequi sed nobis nisi excepturi recusandae explicabo esse dolores!
+	</div>
+	<div>
+		The div 2
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores esse, pariatur. Necessitatibus labore facilis, fugit obcaecati rerum optio commodi, sint ducimus sequi sed nobis nisi excepturi recusandae explicabo esse dolores!
+	</div>
+
+	
+	
+</body>
+</html>

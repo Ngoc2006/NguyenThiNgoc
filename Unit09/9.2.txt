@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+
+
+</head>
+<body>
+	<div id="wrapper"">
+		<div class="p8">
+			<div class="checkBox">
+				<input type="checkbox" name="" value="">
+			</div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet.</p>
+
+			</div>
+
+		</div>
+		<div class="p8">
+			<div class="checkBox">
+				<input type="checkbox" name="" value="">
+			</div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet.</p>
+
+			</div>
+
+		</div>
+		<div class="p8">
+			<div class="checkBox">
+				<input type="checkbox" name="" value="">
+			</div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet.</p>
+
+			</div>
+
+		</div>
+		<div class="p8">
+			<div class="checkBox">
+				<input type="checkbox" name="" value="">
+			</div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet.</p>
+
+			</div>
+
+		</div>
+		<div class="p8">
+			<div class="checkBox">
+				<input type="checkbox" name="" value="">
+			</div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet.</p>
+
+			</div>
+
+		</div>
+		<div class="p8">
+			<div class="checkBox">
+				<input type="checkbox" name="" value="">
+			</div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet.</p>
+
+			</div>
+
+		</div>
+		<div class="p8">
+			<div class="checkBox">
+				<input type="checkbox" name="" value="">
+			</div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet.</p>
+
+			</div>
+
+		</div>
+		<div class="p8">
+			<div class="checkBox">
+				<input type="checkbox" name="" value="">
+			</div>
+			<div class="text">
+				<p>Lorem ipsum dolor sit amet.</p>
+
+			</div>
+
+		</div>
+		<div class="p2">
+			<div class="p2lv2">
+				<button class="check">Check All</button>
+			</div>
+			<div class="p2lv2">
+				<button class="uncheck">Uncheck All</button>
+			</div>
+			
+		</div>
+	</div>
+
+	<script src="index.js"></script>
+<!-- <script type="text/javascript">
+	function checkAll()
+	{
+		var check=document.getElementsByTagName('input');
+		for (var i = 0; i < check.length; i++) {
+			check[i].checked=true;
+		}
+	}
+	function uncheckAll()
+	{
+		var check=document.getElementsByTagName('input');
+		for (var i = 0; i < check.length; i++) {
+			check[i].checked=false;
+		}
+	}
+</script> -->
+
+</body>
+</html>
+
+
+
+
+
+////js
+
+var input = document.getElementsByTagName("input");
+
+document.getElementsByClassName("check")[0].addEventListener("click", function(){
+	for (var i = 0; i < input.length; i++) {
+		input[i].checked=true;
+	}
+});
+
+document.getElementsByClassName("uncheck")[0].addEventListener("click", function(){
+	for (var i = 0; i < input.length; i++) {
+		input[i].checked=false;
+	}
+});
