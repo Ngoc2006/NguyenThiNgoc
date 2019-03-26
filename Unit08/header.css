@@ -74,12 +74,38 @@ header .header-2a{
     padding: 85px 0 30px 0;
 }
  .text-size-5{
-	font-size: 30px;
+	font-size: 25px;
+	/*text-align: center;*/
 }
  .chia3a {
     padding-right: 10px;
-	font-size: 50px;
+	font-size: 40px;
 }
 header .mau-ghi{
 	color: #d5c7c7;
+}
+
+
+
+/*Tablet*/
+@media all and (max-width: 768px){
+	header .flex-container {
+		width: 100% !important;
+	    padding: 30px 45px;
+	}
+	/*header .header-2 .header-2-1 {
+		width: 50px;
+	}*/
+	header .header-2 {
+    	width: 100%;
+	}
+	header .header-2 .chia3{
+		display: none ;
+	}
+}
+
+
+/*phone*/
+@media all and (max-width: 576px){
+
 }

@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 14px;
+}
+.clear{
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.a-trang{
+    color: white;
+    text-decoration: none;
+}
+.a-den{
+    color: black;
+    text-decoration: none;
+}
+.a-xanh{
+    color: #272155 !important;
+    text-decoration: none;
+}
+.in-hoa{
+    text-transform: uppercase;
+}
+.header{
+    background-color: #f6f6f6;
+}
+.header >ul{
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4% 0 2.5% 0;
+}
+.header >ul >li{
+    display: inline-block;
+    padding-left: 2%;
+}
+.header i{
+    padding-left: 5px;
+    font-size: 10px;
+}
+.mau{
+    color: #dcb96e;
+}
+.header p{
+    opacity: 0.5;
+    padding-top: 7px;
+}
+
+/* content */
+.content1{
+    background-image: url('images/16.jpg');
+    width: 100%;
+    background-size: cover;
+    color: white;
+}
+.box-mau{
+    background-color: #dcb96e;
+}
+.width-85{
+    width: 85%;
+    margin: 0 auto;
+}
+.content1-1{
+    width: 20%;
+    padding-top: 10%;
+}
+.content1-1 >p{
+    width: 40%;
+    font-size: 17px;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+.content1-2{
+    padding-top: 3%;
+}
+.content1-2 >h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.content1-2 >p{
+    padding: 20px 0;
+}
+.mau-nen{
+    background:-webkit-gradient(linear, 56% 14%, 56% 100%, from(rgba(99, 110, 114,0.1)), to(#8d8985));
+}
+.content1-3 >ul{
+    list-style: none;
+}
+.content1-3 >ul >li{
+    display: inline-block;
+    width: 31%;
+    border-top: 1px solid white;
+    margin-right: 1.5%;
+}
+.content1-3 >ul >li >p{
+    float: left;
+    font-size: 200%;
+}
+.content1-3 >ul >li >div{
+    float: left;
+    padding-left: 7px;
+}
+.chu-mo{
+    opacity: 0.6;
+    font-style: italic;
+}
+.content1-3 >ul >li{
+    opacity: 0.9;
+    padding: 1% 0;
+}
+.content{
+    background-color: #f6f6f6;
+}
+.content2 >ul{
+    padding-top: 5%;
+    text-align: center;
+}
+.content2 >ul >li{
+    list-style: none;
+    width: 30%;
+    display: inline-block;
+    margin: 0 1%;
+    background-color: white;
+    text-align: center;
+}
+.content2 >ul >li >img{
+    width: 100%;
+    padding-bottom: 2%;
+}
+.chu-xanh{
+    color: #272155;
+    padding: 2% 0;
+}
+
+.content3{
+    padding-top: 5%;
+}
+.content2 >ul >li >.mau{
+    padding: 3% 0 7% 0;
+}
+.content2 >img{
+    padding: 4% 0;
+    width: 100%;
+}
+.content3 .left{
+    width: 29%;
+}
+hr{
+    height: 3px;
+    width: 50px;
+    margin-left: 20px;
+    background-color: #dcb96e;
+    display: inline-block;
+    border: none;
+}
+.article .article1{
+    clear: both;
+    padding: 15px 0px 60px 0;
+    border-bottom: 1px solid lightgray;
+}
+.article .article1 >div{
+    float: left;
+    padding-left: 5px;
+}
+.article .article1 >p{
+    float: left;
+    font-size: 50px;
+    font-style: normal;
+}
+.article .article1 >div >i{
+    padding-left: 15px;
+}
+.size-20{
+    font-size: 140%;
+    padding-bottom: 4px;
+}
+.size-25{
+    font-size: 200%;
+    padding-bottom: 7px;
+}
+.featured .ft>img{
+    width: 100%;
+}
+.featured{
+    padding: 30px 0;
+} 
+.featured1{
+    width: 84%;
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+    background: white;
+    text-align: center;
+}
+.featured1 >h3{
+    padding-top: 10px;
+}
+.featured1 >.mau{
+    padding-bottom: 20px;
+}
+.cach-chu{
+    padding: 10px 0 20px 0;
+}
+.featured >.ft{
+    padding-bottom: 165px;
+    position: relative;
+    padding-top: 10px;
+}
+.featured >.ft >span{
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 45px;
+    line-height: 45px;
+    text-indent: 4px;
+    border-radius: 50%;
+    color: white;
+    top: 5%;
+    left: 5%;
+}
+.featured .featured2{
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 10px 0;
+}
+.content3 .right{
+    width: 69%;
+}
+.content3 .right >p{
+    padding-bottom: 20px;
+}
+.content3 .right .gallery >img{
+    width: 70%;
+}
+.content3 .right .gallery{
+    position: relative;
+    padding-bottom: 5%;
+}
+.content3 .right .gallery .gallery1{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    padding: 3% 4%;
+    background: #fffcf5;
+    text-align: center;
+} 
+.img-cach-chu{
+    padding-top: 10%;
+}
+
+.content4{
+    background: #212227;
+    clear: both;
+    color: white;
+    text-align: center;
+}
+.content4 ul >li{
+    list-style: none;
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    margin: 1%;
+}
+.content4 ul >li >img{
+    width: 100%;
+}
+.content4 ul{
+    padding-bottom: 2%;
+}
+.content4 >div >h2{
+    padding: 2%;
+}
+.content4 ul >li .span1{
+    padding: 5px 10px;
+    background-color: #dcb96e;
+    position: absolute;
+    top: 0;
+    left: 37%;
+}
+.content4 ul >li .span2{
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 15%;
+}
+
+.thanh-ngang{
+    width: 100%;
+    height: 2px;
+    background-color: #dcb96e;
+    margin: 10px 0;
+}
+.content5{
+    padding-top: 5%;
+}
+.content5 >div{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right: 3.3%;
+}
+.content5 .width-85 h2{
+    padding: 20px 0 10px 0;
+}
+.content5 .width-85 p{
+    padding: 10px 0;
+}
+.content5 .width-85 button{
+    margin: 10px 0 30px 0;
+    padding: 10px;
+    background-color: #212227;
+    color: white;
+    border: none;
+}
+.content5 >div{
+    background: white;
+    border-radius: 5px;
+}
+.content5 sup{
+    font-weight: bold;
+}
+.content5 >div .center{
+    padding: 20px 0;
+}
+.content5 .o-giua{
+    margin-top: -2%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.content5 .most{
+    background-color: #212227;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 23px;
+    right: 8px;
+    top: 8px;
+    position: absolute;
+}
+
+.content6{
+    clear: both;
+}
+.content6 >.left{
+    width: 20%;
+    padding: 30px 0;
+}
+.content6 >.left >h2{
+    padding: 15px 0;
+    font-size: 25px;
+}
+.content6 >.left >button{
+    padding: 5px;
+    margin-top: 20px;
+    border: 1px solid #dcb96e;
+    background: #f6f6f6;
+}
+.content6 >.right{
+    width: 78%;
+}
+.content6 #product .left{
+    width: 30%;
+    margin: 30px 3% 30px 0;
+    background: white;
+}
+.content6 #product .left >.right{
+   padding-top: 5px;
+}
+.content6 #product .left >div >.mau{
+    text-decoration: line-through;
+}
+.content6 #product .left >.width-85 >p{
+    color: #b97f00;
+    font-family: 'Pacifico', cursive;
+}
+.content6 #product .left >.in-hoa{
+    text-align: center;
+    padding: 10px 0;
+}
+.content6 #product .left img{
+    width: 100%;
+}
+
+.content7{
+    clear: both;
+    margin-top: 5%;
+    text-align: center;
+}
+.content7 >div{
+    border: 1px solid #dcb96e;
+    position: relative;
+}
+.content7 #ct7-small{
+    width: 75%;
+    margin: 0 auto;
+    padding: 40px;
+}
+.content7 #ct7-small >img{
+    border-radius: 50%;
+    padding: 20px 0;
+}
+.content7 .fa-quote-right{
+    width: 50px;
+    position: absolute;
+    z-index: 10;
+    background-color: #f6f6f6;
+    top: -10px;
+    color: rgb(190, 190, 190);
+}
+.content8{
+    text-align: center;
+    clear: both;
+    margin-top: 5%;
+    position: relative;
+}
+#info >div{
+    width: 23%;
+    float: left;
+    margin-bottom: 5%;
+}
+#info .width-85{
+    background-color: white;
+}
+#info ul li{
+    display: inline-block;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #dcb96e;
+    border-radius: 50%;
+    line-height: 30px;
+    margin: 1.5%;
+}
+#info ul{
+    padding: 15px 0;
+}
+#info img{
+    width: 100px;
+    height: 100px;
+    padding: 20px 0;
+}
+#info .width-85 >span{
+    opacity: 0.5;
+}
+#info .chu-mo{
+    padding: 20px 0;
+}
+#border{
+    height: 10px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: 40px 0;
+    text-align: center;
+    position: relative;
+}
+#border i{
+    background-color: #f6f6f6;
+    padding: 0 15px;
+    font-size: 30px;
+    position: absolute;
+    margin-left: -7%;
+    top: -20px;
+}
+
+.content8 >p{
+    padding-bottom: 20px;
+}
+.content9{
+    clear: both;
+    background-color: black;
+    color: white;
+}
+.content9 >.width-85 >.left{
+    width: 23%;
+    margin-right: 1.5%;
+    padding: 30px 0;
+}
+.content9 >.width-85 >.left .pr1-small{
+    width: 43%;
+    padding: 20px 0;
+    margin-right: 7%;
+}
+.content9 .pr1-small .fa-heart-o{
+    color: tomato;
+}
+.content9 .pr1-small span{
+    font-family: 'Times New Roman', Times, serif;
+}
+.content9 .pr1-small p{
+    padding: 10px 0;
+}
+.content9 >.width-85 >.left .pr1-small img{
+    width: 100%;
+}
+.content9 .cot2 >p{
+    padding: 10px 0;
+}
+.o-button{
+    padding: 3px 15px 3px 7px;
+    margin: 10px 5px;
+    color: white;
+    background-color: #c9a96e;
+    border: none;
+    position: relative;
+}
+.cham{
+    float: right;
+    background-color: white;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+}
+.cot3 >img{
+    width: 29%;
+    background-size: contain;
+    padding: 10px 2% 10px 0;
+    border-radius: 20px;
+}
+.cot3 input{
+    font-style: italic;
+    height: 30px;
+    text-indent: 5px;
+    font-size: 15px;
+    margin: 20px 0;
+    width: 95%;
+    background: black;
+    border: 1px solid #909090;
+    color: #c0c0c0;
+}
+.cot4 input{
+    background-color: #909090;
+    border: none;
+    height: 30px;
+    width: 95%;
+    text-indent: 5px;
+    font-size: 15px;
+    color: white;
+}
+.cot4 p{
+    padding: 15px 0 10px 0;
+}
+.cot4 textarea{
+    background-color: #909090;
+    text-indent: 5px;
+    font-size: 15px;
+    color: white;
+    width: 95%;
+}
+.clear{
+    clear: both;
+}
+/* end - content */
+
+.footer{
+    background-color: #8d8985;
+    color: white;
+    text-align: center;
+}
+.footer #info ul{
+    display: inline-block;
+    width: 50%;
+}
+.footer >p{
+    padding: 30px 0 10px 0;
+    font-size: 150%;
+}
+.footer #info >span{
+    display: inline-block;
+    padding-bottom: 30px;
+}
+button{
+    border-radius: 3px;
+}
+
+
+/* responsive */
+
+/* desktop big */
+@media (max-width: 1200px) and (min-width: 993px){
+    .content3 .right .gallery .gallery1{
+        right: -3.5%;
+    } 
+    .content9 >.width-85{
+        width: 95% !important;
+    }
+}
+/* desktop */
+@media (min-width: 769px) and (max-width: 992px){
+    .content3 .right .gallery .gallery1{
+        right: -9%;
+    } 
+    .content4 ul >li >.span1 {
+        margin: 0 -15%;
+    }
+    .content4 ul >li .span2 {
+        left: 5%;
+    }
+    .article .article1 >p {
+        float: left;
+        font-size: 22px;
+        font-style: normal;
+    }
+    .content9 >.width-85{
+        width: 95% !important;
+    }
+}
+/* tablet */
+@media all and (max-width: 768px){
+    .content1-1 >p {
+        width: 50px;
+    }
+    .content1-1 {
+        width: 30%;
+    }
+    .footer #info ul{
+        width: 90%;
+    }
+    .content9 >.width-85 >.left {
+        width: 100%;
+    }
+    .content9 >.width-85 >.left .pr1-small {
+        margin: 0 3%;
+    }
+    .content9 >.width-85 >.left {
+        margin: 0 2%;
+    }
+    .content9 >.width-85{
+        width: 95%;
+    }
+    .content1-3 >ul {
+        display: none;
+    }
+    .content2 >ul >li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .content3 .left {
+        width: 100%;
+    }
+    .content3 .right {
+        width: 100%;
+    }
+    .content3 .right .gallery .gallery1 {
+        position: initial;
+    }
+    .content3 .right .gallery >img {
+        width: 100%;
+    }
+    .content4 ul >li {
+        width: 100%;
+    }
+    .content4 ul >li >.span1 {
+        left: 45%;
+    }
+    .content4 ul >li .span2 {
+        left: 35%;
+    }
+    .content5 >div {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .content6 >.left{
+        width: 100%;
+    }
+    .content6 >.right{
+        width: 100%;
+    }
+    .content6 #product .left {
+        width: 100%;
+    }
+    #info >div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .header >ul {
+        width: 95%;
+    }
+}
+/* smartphone */
+@media all and (max-width: 576px){
+    .content1-1 {
+        width: 45%;
+    }
+    .header >ul {
+        display: none;
+    }
+    #border i{
+        margin-left: -20%;
+    }
+}
+@media (min-width: 359px ) and (max-width: 768px){
+    .featured1 {
+        bottom: 10%;
+    }
+}

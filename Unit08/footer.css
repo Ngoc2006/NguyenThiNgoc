@@ -50,9 +50,9 @@ footer .footer1 .footer1-2 .info1{
 footer .footer1 .footer1-2 .bt{
 	display: flex;
 	flex-wrap: wrap;
-
+    padding-left: 14px;
 }
-footer .footer1 .bt .dau-cham {
+footer .footer1 .dau-cham {
 	margin: 5px;
 	padding: 5px;
 	color: white;
@@ -63,31 +63,39 @@ footer .footer1 .bt .dau-cham {
 footer .footer1 .footer1-3 .anh{
 	display: flex;
 	flex-direction: row;
+    margin-left: 13px;
 }
 footer .footer1 .footer1-3 .anh img{
 	padding: 5px;
+}
+footer .footer1 .ft{
+	padding: 20px;
+}
+footer .footer1 .footer1-4{
+	padding-left: 25px;
 }
 footer .footer1 .footer1-4 .footer1-4-1 {
 	display: flex;
 	flex-direction: row;
 }
 footer .footer1 .footer1-4 .footer1-4-1> div{
-	padding: 10px;
+    padding-right: 7px;
 }
 footer .footer1 .footer1-4 .footer1-4-1 {
 	/*background-color: #ccc;*/
 }
 .lui{
-	padding-left: 10px;
+	margin-left: 17px !important;
 }
 footer .footer2{
 	background-color: #413a3a;
 	width: 100%;
-	height: 250px;
+	height: 200px;
 	color: white;
 	padding-top: 30px;
 }
 footer .footer2 .final{
+	width: 100% !important;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -99,4 +107,70 @@ footer .footer2 .final .final-left{
 footer .footer2 .final .final-right{
 	width: 25%;
 }
+.mau-chu2{
+	color: gray;
+}
+.bg{
+	background-color: #ccc;	
+}
+.abc{
+	width: 30%;
+	height: 180px;
+
+}
+.gach-chu{
+	text-decoration: line-through;
+}
+
+
+
+/*Tablet*/
+@media all and (max-width: 768px){
+	footer {
+		width: 100%;
+	}
+	footer .footer1{
+		display: flex;
+		flex-direction: column;
+	}
+	footer .footer1 .ft{
+		width: 100%;
+	}
+	footer .footer1 .footer1-1 .info{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	footer .footer1 .footer1-1 .info .info-left{
+		width: 90%;
+		margin-bottom: 20px;
+	}
+	footer .footer1 .footer-1-4 .footer-1-4-1{
+		display: flex !important;
+		flex-direction: column !important;
+	}
+	footer .footer1 .footer-1-4-1 .bg {
+		width: 90%;
+	}
+	.abc{
+		width: 90% !important;
+	}
+	footer .footer2 .final{
+		display: flex;
+		flex-direction: column;
+	}
+	footer .footer2 .final .final-left{
+		float: right !important;
+	}
+	footer .footer2 .final .final-right{
+		float: left !important;
+	}
+
+
+
+/*phone*/
+@media all and (max-width: 576px){
+
+}
+
 
