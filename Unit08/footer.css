@@ -95,18 +95,17 @@ footer .footer2{
 	padding-top: 30px;
 }
 footer .footer2 .final{
-	width: 100% !important;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding-top: 20px;
-}
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}/*
 footer .footer2 .final .final-left{
 	width: 25%;
 }
 footer .footer2 .final .final-right{
 	width: 25%;
-}
+}*/
 .mau-chu2{
 	color: gray;
 }
@@ -120,6 +119,9 @@ footer .footer2 .final .final-right{
 }
 .gach-chu{
 	text-decoration: line-through;
+}
+footer .footer2 > p{
+	text-align: center;
 }
 
 
@@ -159,16 +161,20 @@ footer .footer2 .final .final-right{
 		display: flex;
 		flex-direction: column;
 	}
-	footer .footer2 .final .final-left{
-		float: right !important;
+	footer .footer2 .final .final-left{;
+		margin-left: 60%;
 	}
 	footer .footer2 .final .final-right{
 		float: left !important;
+		margin: 32px;
+	    margin-right: 50%;
 	}
+	
 
 
 
-/*phone*/
+
+/*phone
 @media all and (max-width: 576px){
 
 }

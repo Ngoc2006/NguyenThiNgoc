@@ -373,10 +373,12 @@ article .section-8 .chia-4-flex .chia-4 p{
 }
  .icon{
 	border-radius: 50%;
-	border: 0.5px solid orange;
-	width: 11%;
-    height: 20px;
-    line-height: 20px;
+    border: 0.5px solid orange;
+    width: 11%;
+    height: 25px;
+    padding-top: 10px;
+    padding-left: 2px;
+    width: 31px;
 }
 
 /*Tablet*/
@@ -415,6 +417,11 @@ article .section-8 .chia-4-flex .chia-4 p{
 	article .section-3-2a{
 	    display: flex !important;
 	    flex-direction: column !important;
+	    height: 560px;
+	}
+	article .section-3-2a .section-3-2aa{
+	    top: 320px;
+    	width: 100% !important;
 	}
 	article .section-3-2a img{
 		width: 100% !important;
@@ -479,6 +486,7 @@ article .section-8 .chia-4-flex .chia-4 p{
 	article .section-8 .chia-4-flex .chia-4> img{
 		width: 100%;
 	}
+
 
 /*phone*/
 @media all and (max-width: 576px){
