@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="vd.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+
+<form action=”#” method=”post” name=”myForm” onsubmit=”return validateForm()”>
+	<table bgcolor=”#DDDDDD” id=”formdangky” style=”width: 450px;”>
+		<tbody>
+			<tr>
+				<td class=”tenhang” width=”118″>Họ:</td>
+				<td width=”320″><input name=”ho” type=”text” /></td>
+			</tr>
+			<tr>
+				<td class=”tenhang”>Tên:</td>
+				<td><input name=”ten” type=”text” /></td>
+			</tr>
+			<tr>
+				<td class=”tenhang”>Email:</td>
+				<td><input name=”email” type=”text” /></td>
+			</tr>
+			<tr>
+				<td class=”tenhang”>Số Điện Thoại:</td>
+				<td><input maxlength=”11/” name=”dienThoai” type=”text” /></td>
+			</tr>
+			<tr>
+				<td class=”tenhang”>Số Lượng Mua:</td>
+				<td><input name=”soLuong” type=”text” /></td>
+			</tr>
+			<tr>
+				<td class=”tenhang”>Ngày Nhận Hàng:</td>
+				<td><input id=”datepicker” name=”ngaymua” type=”text” /></td>
+			</tr>
+			<tr>
+				<td class=”tenhang”>Thanh Toán:</td>
+				<td><input id=”ck” name=”thanhToan” type=”radio” value=”chuyenKhoan” /> Chuyển Khoản
+					<input id=”tt” name=”thanhToan” type=”radio” value=”trucTiep” /> Trực Tiếp Khi Giao Hàng
+				</td>
+			</tr>
+			<tr>
+				<td><input name=”Submit” type=”submit” value=”Đăng Ký Mua” /></td>
+				<td><input name=”Reset” type=”reset” value=”Xóa” /></td>
+			</tr>
+		</tbody></table>
+	</form>
+
+</body>
+</html>

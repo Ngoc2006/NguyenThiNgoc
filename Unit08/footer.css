@@ -174,9 +174,15 @@ footer .footer2 > p{
 
 
 
-/*phone
+/*phone*/
 @media all and (max-width: 576px){
-
+	footer .footer1-4 .bg{
+		width: 90% !important;
+	}
+	footer .footer1-4 .footer1-4-2> input{
+		width: 90% !important;
+		height: 180px !important;
+	}
 }
 
 

@@ -490,5 +490,10 @@ article .section-8 .chia-4-flex .chia-4 p{
 
 /*phone*/
 @media all and (max-width: 576px){
-
+	article .section-4 .section-4-img11{
+		left: 250px !important;
+	}
+	article .section-4 .section-4-img12 {
+		left: 210px !important;
+	}
 }

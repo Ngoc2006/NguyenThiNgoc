@@ -34,19 +34,22 @@
 		margin-top: 10px;
 		font-size: 16px;
 	}
+	.requite {
+		color: red;
+	}
 
 
 
 </style>
 </head>
 <body>
-	<div id="nav">
+	<form  id="nav">
 		<div class="nav1">
-			<span class="left">Họ và tên</span>
+			<span class="left">Họ và tên<span class="requite">*</span></span>
 			<input class="right" type="text" name="hoVaTen" value="" placeholder="Nhập họ tên......">
 		</div>
 		<div class="nav1">
-			<span class="left">Giới tính</span>
+			<span class="left">Giới tính<span class="requite">*</span></span>
 			<div class="right">			
 				<input type="radio" name="gioiTinh" value="Nam" placeholder=""/>Nam
 				<input type="radio" name="gioiTinh" value="Nữ" placeholder=""/>Nữ
@@ -54,22 +57,22 @@
 
 		</div>
 		<div class="nav1">
-			<span class="left">Email</span>
+			<span class="left">Email<span class="requite">*</span></span>
 			<input class="right" type="text" name="email" value="" placeholder="Nhập email ......">
 		</div>
 		<div class="nav1">
-			<span class="left">Số điện thoại</span>
+			<span class="left">Số điện thoại<span class="requite">*</span></span>
 			<input class="right" type="number" name="" value="" placeholder="Nhập số điện thoại.....">
 		</div>
 		<div class="nav1">
-			<span class="left">Mật khẩu</span>
+			<span class="left">Mật khẩu<span class="requite">*</span></span>
 			<input class="right" type="text" name="matKhau" value="" placeholder="">
 		</div>
 		<div class="nav1">
-			<span class="left">Xác nhận mật khẩu</span>
+			<span class="left">Xác nhận mật khẩu<span class="requite">*</span></span>
 			<input class="right" type="text" name="matKhau" value="" placeholder="">
 		</div>
-	</div>
+	</form>
 	<button class="bt bt1">Đăng ký</button>
 	<button class="bt bt2">Xóa trắng</button>
 </body>
