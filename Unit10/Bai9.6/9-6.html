@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	body{
+		width: 50%;
+		font-size: 20px;
+		margin-left: 25%;
+		background-image: url("../images/anh2.jpg");
+	}
+	#nav{
+		border-radius: 2%;
+		border: 0.5px solid black;
+		height: 290px;
+	}
+	.left{
+		float: left;
+		width: 30%;
+	}
+	.right{
+		/*float: right;*/
+		width:315px;
+	}
+	.nav1{
+		margin: 20px;
+	}
+	.bt{
+		background-color: red;
+		color: white;
+		border: 0;
+		margin-left: 175px;
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+
+
+</style>
+</head>
+<body>
+	<div id="nav">
+		<div class="nav1">
+			<span class="left">Họ và tên</span>
+			<input class="right" type="text" name="hoVaTen" value="" placeholder="Nhập họ tên......">
+		</div>
+		<div class="nav1">
+			<span class="left">Giới tính</span>
+			<div class="right">			
+				<input type="radio" name="gioiTinh" value="Nam" placeholder=""/>Nam
+				<input type="radio" name="gioiTinh" value="Nữ" placeholder=""/>Nữ
+			</div>
+
+		</div>
+		<div class="nav1">
+			<span class="left">Email</span>
+			<input class="right" type="text" name="email" value="" placeholder="Nhập email ......">
+		</div>
+		<div class="nav1">
+			<span class="left">Số điện thoại</span>
+			<input class="right" type="number" name="" value="" placeholder="Nhập số điện thoại.....">
+		</div>
+		<div class="nav1">
+			<span class="left">Mật khẩu</span>
+			<input class="right" type="text" name="matKhau" value="" placeholder="">
+		</div>
+		<div class="nav1">
+			<span class="left">Xác nhận mật khẩu</span>
+			<input class="right" type="text" name="matKhau" value="" placeholder="">
+		</div>
+	</div>
+	<button class="bt bt1">Đăng ký</button>
+	<button class="bt bt2">Xóa trắng</button>
+</body>
+</html>
