@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    /* background-color:#ccc; */
+    margin: 0 5%;
+}
+
+/* header */
+header{
+    width: 90%;
+    height: 70px;
+    line-height: 70px;
+    background-color:  rgb(43, 89, 191);
+    color: white;
+    font-size: 22px;
+    
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.right span {
+    padding-right: 30px;
+}
+.left span{
+    padding-left: 30px;
+}
+.mau {
+    color: orange;
+}
+.right input {
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 5px;
+}
+
+/* article */
+article{
+    width: 90%;
+    height: auto;
+}
+article .section1{
+    width: 25%;
+    float: left;
+    background-color: #adb1b329;
+    margin-top: 35px;
+}
+article .section1 p{
+    padding: 10px;
+    font-size: 18px;
+    color: #2b9dbf;
+    /* border: 0.5px solid black; */
+}
+article .section1 p:hover {
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+article .section2{
+    width: 65%;
+    height: auto;
+    float: right;
+    margin-left: 5%;
+}
+article .section2> input{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 8%;
+    margin-top: 30px;
+}
+.fa-play{
+    font-size: 25px !important;
+    margin-top: 40px;
+}
+/* .code{
+    font-size: 20px !important;
+} */
+article .section2>p {
+    font-size: 50px;
+    color: #020280;
+}
+article .section2 hr{
+    margin: 20px 0;
+    color: gray;
+    margin-right: 8%;
+}
+article .section2 .section2-1{
+    background-color: #336ef5d9;
+    color: white;
+    width: 17%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5%;
+    padding-left: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+article .section2 .p4{
+    display: flex;
+    flex-direction: row;
+}
+article .section2 .colors{
+    background-color: #e8e3e38c;
+}
+article .section2 .section2-2{
+    margin-top: 30px;
+    background-color: #e8e3e35c;
+    padding-bottom: 30px;
+    clear: both;
+}
+article .section2 .section2-2 .font-chu{
+    font-size: 21px;
+}
+article .section2 .section2-2 p{
+    margin: 10px 0;
+}
+article .section2 .section2-2 input{
+    padding: 8px;
+    width: 250px;
+    border-radius: 8%;
+}
+
+
+/* footer */
+footer{
+    margin: 20px 0 0 127px;
+    margin-right: 127px;
+    height: auto;
+}
+footer .right{
+    float: right;
+}
+footer .bt{
+    padding: 5px;
+    border:0;
+    border-radius: 5%;
+}
+footer .bt2{
+    background-color: blue;
+    color: white;
+    border: 0;
+}
+
+
