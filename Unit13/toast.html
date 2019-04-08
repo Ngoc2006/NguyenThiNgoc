@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/toastr.min.css">
+</head>
+<body>
+	<button class="abc">abc</button>
+	<script  src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/toastr.min.js"></script>
+	<script>
+		$(function(){
+			$(".abc").on("click", function(){
+				Command: toastr["success"]('Quỳnh xinh gai<br /><br /><button type="button" class="btn clear">Yes</button>', "Hello Quỳnh")
+
+toastr.options = {
+  "closeButton": false,
+  "debug": false,
+  "newestOnTop": false,
+  "progressBar": false,
+  "positionClass": "toast-top-right",
+  "preventDuplicates": false,
+  "onclick": null,
+  "showDuration": "300",
+  "hideDuration": "1000",
+  "timeOut": 0,
+  "extendedTimeOut": 0,
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "fadeIn",
+  "hideMethod": "fadeOut",
+  "tapToDismiss": false
+}
+			});
+		})
+	</script>
+</body>
+</html>
