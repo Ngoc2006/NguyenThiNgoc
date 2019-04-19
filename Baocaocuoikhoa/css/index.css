@@ -382,7 +382,7 @@ img {
 		/*footer*/
 		#final{
 			background-color: #151313e3;
-
+		    margin-top: 50px;
 		}
 		#final .icon4{
 			border-radius: 50%;
@@ -400,4 +400,3 @@ img {
 			margin-bottom: 40px;
 		}
 
-		
