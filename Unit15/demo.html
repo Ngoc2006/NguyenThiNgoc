@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css" media="screen">
+  .required,.error{
+    color:red;
+  }
+</style>
+<script type="text/javascript">
+  function submitForm(){
+    var hoVaTen = formDangKy.hoVaTen;
+    if (hoVaTen.value.length<8){
+      hoVaTen.parentNode.nextElementSibling.innerHTML = 'Nhập 8 kí tự trở lên';
+    }
+    else {
+      hoVaTen.parentNode.nextElementSibling.innerHTML = '';
+    }
+var sdt = formDangKy.soDienThoai;
+var regex = /^0\d{9,10}$/g;
+if (!regex.test(sdt.value)){
+  sdt.parentNode.nextElementSibling.innerHTML = 'Số ĐT ko đúng';
+}
+else sdt.parentNode.nextElementSibling.innerHTML = '';
+var email = formDangKy.email;
+var regex = /^\w+@\w+\.\w+$/g;
+if (!regex.test(email.value)){
+  email.parentNode.nextElementSibling.innerHTML = 'Email ko đúng';
+}
+else email.parentNode.nextElementSibling.innerHTML = '';
+}
+function load(){
+  var btn = document.getElementById("submit");
+  submit.addEventListener("click",function(){
+    submitForm();
+  });
+// regular expression
+}
+</script>
+</head>
+<body onload="load()">
+  <form name="formDangKy">
+    <table>
+      <tr align="center" bgcolor="orange">
+        <td colspan="3">Zent - Form Đăng Ký</td>
+      </tr>
+      <tr>
+        <td>Họ và tên<span class="required">*</span>:</td>
+        <td>
+          <input id="hoVaTen" type="text" name="hoVaTen" value="" placeholder="Gõ họ tên vào đây"/>
+        </td>
+        <td class="error"></td>
+      </tr>
+      <tr>
+        <td>Giới tính<span class="required">*</span>:</td>
+        <td>
+          <input type="radio" name="gioiTinh" value="Nam" placeholder=""/>Nam
+          <input type="radio" name="gioiTinh" value="Nu" placeholder=""/>Nữ
+        </td>
+        <td class="error"></td>
+      </tr>
+      <tr>
+        <td>Mật khẩu<span class="required">*</span>:</td>
+        <td>
+          <input type="password" name="matKhau" value="" placeholder=""/>
+        </td>
+        <td class="error"></td>
+      </tr>
+      <tr>
+        <td>Xác nhận mật khẩu<span class="required">*</span>:</td>
+        <td>
+          <input type="password" name="xacNhanMatKhau" value="" placeholder=""/>
+        </td>
+        <td class="error"></td>
+      </tr>
+      <tr>
+        <td>SĐT<span class="required">*</span>:</td>
+        <td>
+          <input id="sdt" type="text" name="soDienThoai" value="" placeholder="Gõ SĐT vào đây"/>
+        </td>
+        <td class="error"></td>
+      </tr>
+      <tr>
+        <td>Email<span class="required">*</span>:</td>
+        <td>
+          <input id="email" type="text" name="email" value="" placeholder="Gõ Email vào đây"/>
+        </td>
+        <td class="error"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input id="submit" type="button" name="" value="Gửi thông tin">
+        </td>
+      </tr>
+      <tr align="center" bgcolor="orange">
+        <td colspan="3">&nbsp;</td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<style type="text/css" media="screen">
+	.rec{
+		height: 200px;
+		background-color: #ccc;
+		margin-top: 5px;
+	}
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="btn-group" role="group" aria-label="Basic example">
+				<button type="button" class="btn btn-primary" filter="all">All</button>
+				<button type="button" class="btn btn-light" filter="group0">Group0</button>
+				<button type="button" class="btn btn-success" filter="group1">Group1</button>
+				<button type="button" class="btn btn-warning" filter="group2">Group2</button>
+				<button type="button" class="btn btn-secondary" filter="group3">Group3</button>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="rec col-xl-3 wow tada"></div>
+			<div class="rec col-xl-3 wow jello"></div>
+			<div class="rec col-xl-3 wow tada"></div>
+			<div class="rec col-xl-3 wow jello"></div>
+			<div class="rec col-xl-3 wow jello"></div>
+			<div class="rec col-xl-3 wow jello"></div>
+			<div class="rec col-xl-3 wow jello"></div>
+			<div class="rec col-xl-3 wow jello"></div>
+			<div class="rec col-xl-3 wow jello"></div>
+			<div class="rec col-xl-3 wow jello"></div>
+			<div class="rec col-xl-3 wow jello"></div>
+			<div class="rec col-xl-3 wow jello"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript">
+	function randomNumber(){
+		return Math.floor(Math.random()*255);
+	}
+	$(function(){
+		new WOW().init();
+		$(".rec").each(function(){
+			var red = randomNumber();
+			var green = randomNumber();
+			var blue = randomNumber();
+			$(this).css("background-color", 'rgb('+red+', '+green+', '+blue+')');
+			$(this).addClass("group" + Math.floor(Math.random()*4));
+		});
+
+		$("button").click(function(){
+			new WOW().init();
+			var group = $(this).attr("filter");
+			console.log(group)
+			if(group == 'all'){
+				$(".rec").hide().show();
+			}
+			else{
+				$(".rec").hide();
+				var clazz = '.'+group;
+				$(clazz).show();
+			}
+		});
+	});
+</script>
+</body>
+</html>
