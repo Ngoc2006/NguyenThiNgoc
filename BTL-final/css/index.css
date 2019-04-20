@@ -909,6 +909,10 @@ hr{
 .eachadd i{
   font-size: 43px;
 }
+/*.eachadd i:hover{
+  cursor: pointer;
+  background-color: green;
+}*/
 /*footer*/
 #final{
   background-color: #151313e3;
@@ -923,6 +927,12 @@ hr{
   background-color: #1513132e;
   border: 1px solid white;
   margin: 40px 20px 20px 20px;
+}
+#final .icon4:hover{
+  background-color: yellow;
+  color: black;
+  border: 1px solid green;
+  cursor: pointer;
 }
 #final .anh-final{
   height: 35px;
