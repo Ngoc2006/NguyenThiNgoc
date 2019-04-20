@@ -54,7 +54,6 @@ hr{
   margin-top: 30px;
   padding-bottom: 0px;
   border-color: white;
-  /*background-color: #ccc !important;*/
 }
 .chia-3{  
   border-color: white !important;
@@ -115,17 +114,7 @@ hr{
 .count{
   margin-top: 102px;
   margin-bottom: 68px;
-}/*
-.count p{
-  font-size: 20px;
 }
-.count h1{
-  font-size: 45px;
-}
-.count span{
-  font-size: 45px;
-  font-weight: bold;
-  }*/
   .bottom{
     padding-bottom: 60px;
   }
@@ -134,11 +123,7 @@ hr{
     height: 200px;
     padding-left: 0px;
     padding-right: 0px;
-}/*
-.envir{
-  height: auto;
-  margin-top: 80px;
-  }*/
+}
   .imgengi{
     position: relative;
   }
@@ -788,8 +773,6 @@ hr{
   }
   .anhvand{
     position: relative;
-
-    /*  padding: 20px; */
   }
   .tagImgFri img{
     position: absolute;
@@ -841,7 +824,7 @@ hr{
   margin-top: 11px;
 }
 .tagImgFri{
-  background-image: url('../images/girlxinh.jpg');
+  background-image: url('../images/anhQuynh.jpg');
   height: 111px;
   width: 111px;
   border-radius: 50%;
@@ -849,19 +832,6 @@ hr{
 .chieucao{
   height: 50px;
 }
-
-@-webkit-keyframes example1 {
-  0%   {opacity: 0; transform: translateX(-20px);}
-  25%  {opacity: 1; color:#ffc107;}
-  50%  {opacity: 1; color:#ffc107;}
-  100% {opacity: 1; transform: translateX(0px);}
-}
-@-webkit-keyframes example2 {
-  0% {background-color: white; border:solid 2px #ffc107;}
-  25% {background-color: white; border:solid 2px #ffc107;}
-  50% {background-color: white; border:solid 2px #ffc107;}
-  100% {background-color: #ffc107;}
-} 
 .carousel-inner img {
   width: 100%;
   height: 100%;
